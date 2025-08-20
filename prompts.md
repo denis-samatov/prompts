@@ -13,6 +13,9 @@ Easily copy, adapt, and apply them in your projects.
 - [📐 Mathematics](#-mathematics)
 - [💰 Finance](#-finance)
 - [🧠 Education](#-education)
+  - [📖 Language Learning](#-language-learning)
+  - [📚 History & Science](#-history--science)
+  - [🧑‍🤝‍🧑 Study Support](#-study-support)
 - [📚 Learning & Mastery](#-learning--mastery)
 - [💼 Career & Interviews](#-career--interviews)
 - [💵 Personal Finance & Income Growth](#-personal-finance--income-growth)
@@ -83,8 +86,6 @@ Include both short-term coping tools and long-term development approaches.
 
 ## 🧘 Mental Health & Self-Help
 **Tags:** `#mentalhealth` `#selfhelp` `#therapy` `#support`
-
-⚠️ Disclaimer: эти промпты не заменяют реальную психотерапию. Используйте их как вспомогательный инструмент для самопомощи.  
 
 ---
 
@@ -229,7 +230,11 @@ Provide a structured report including:
 ## 🧠 Education
 **Tags:** `#learning` `#languages` `#history` `#science`
 
-### 1. Language Learning Prompt
+---
+
+### 📖 Language Learning
+
+#### 1. Universal Language Learning Prompt
 ```text
 "Your Language": [......]
 "The Language You Want to Learn": [......]
@@ -255,7 +260,67 @@ Rules:
 
 ---
 
-### 2. History / Science Tutor Prompt
+#### 2. English Learning to B2 (6-Step Prompts)
+
+**(a) Personalized Study Plan**
+
+```text
+Create a personalized English learning plan.  
+My current level: A1.  
+Goal: reach B2 in 6 months.  
+I can study 45 minutes per day.  
+
+The plan should include:  
+- Grammar  
+- Vocabulary  
+- Listening practice  
+- Speaking practice
+```
+
+**(b) Learning Materials (Listening)**
+
+```text
+I want to practice listening.  
+Find 5 YouTube channels and 3 podcasts in English on the topic of [your interests, e.g. technology, marketing], suitable for A2-B1 level.
+```
+
+**(c) Quick 5-Minute Practice**
+
+```text
+Give me 3 quick 5-minute English practice exercises I can do during work breaks when I don’t have time for a full lesson.
+```
+
+**(d) Overcoming Speaking Barrier**
+
+```text
+I feel afraid to speak English.  
+Act as my conversation partner.  
+Let’s role-play: I’m a tourist in London ordering coffee.  
+Ask me simple questions and correct my mistakes as we go.
+```
+
+**(e) Daily Vocabulary Training**
+
+```text
+Act as my English vocabulary coach.  
+Every day, give me 5 new words on the topic [e.g., “travel”] with example sentences.  
+Ask me to create my own sentences with them.  
+The next day, check me on yesterday’s words.
+```
+
+**(f) Progress Evaluation & Motivation**
+
+```text
+I’ve been studying English for 1 month according to our plan.  
+Give me a short grammar test to evaluate progress.  
+Point out my strengths, areas for improvement, and motivate me to continue.
+```
+
+---
+
+### 📚 History & Science
+
+#### 3. History / Science Tutor Prompt
 
 ```text
 You are a world-class professor in [HISTORICAL PERIOD / SCIENCE FIELD].
@@ -269,7 +334,9 @@ Conclude with a concise summary for students.
 
 ---
 
-### 3. Study Partner Prompt
+### 🧑‍🤝‍🧑 Study Support
+
+#### 4. Study Partner Prompt
 
 ```text
 You are my personal study partner. 
@@ -282,7 +349,6 @@ Make the tone friendly and supportive.
 ```
 
 ---
-
 
 ## 📚 Learning & Mastery
 **Tags:** `#study` `#learning` `#mastery` `#planning`
