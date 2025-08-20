@@ -8,6 +8,7 @@ Easily copy, adapt, and apply them in your projects.
 ## 📑 Table of Contents
 - [💻 Programming](#-programming)
 - [🧠 Psychology](#-psychology)
+- [🧘 Mental Health & Self-Help](#-mental-health--self-help)
 - [🌍 Travel](#-travel)
 - [📐 Mathematics](#-mathematics)
 - [💰 Finance](#-finance)
@@ -76,6 +77,74 @@ Based on the following behaviors and feelings: "[BEHAVIOR DESCRIPTION]",
 analyze which attachment style is most likely.
 Give practical strategies to move toward a more secure attachment style.
 Include both short-term coping tools and long-term development approaches.
+```
+
+--- 
+
+## 🧘 Mental Health & Self-Help
+**Tags:** `#mentalhealth` `#selfhelp` `#therapy` `#support`
+
+⚠️ Disclaimer: эти промпты не заменяют реальную психотерапию. Используйте их как вспомогательный инструмент для самопомощи.  
+
+---
+
+### 1. Panic Attack Grounding
+```text
+I’m having a panic attack right now.  
+Guide me through the grounding technique 5-4-3-2-1 step by step.
+````
+
+---
+
+### 2. Cognitive Distortion Reframe
+
+```text
+I keep thinking: “[insert thought]”.  
+Help me identify the cognitive distortion in this thought and reframe it into a more realistic version.
+```
+
+---
+
+### 3. Deep Self-Reflection
+
+```text
+Give me 5 deep journaling questions to process [emotion or situation].  
+Use questions that therapists typically ask to uncover fears and root problems.
+```
+
+---
+
+### 4. Emotion Regulation (DBT)
+
+```text
+I feel overwhelmed by [emotion].  
+Teach me a DBT skill I can use right now to regulate and calm myself.
+```
+
+---
+
+### 5. Relationship Conflict Patterns
+
+```text
+I keep fighting with [person] because of [reason].  
+What relationship pattern might I be stuck in?
+```
+
+---
+
+### 6. Daily Mental Health Check-In
+
+```text
+Create a 5-minute morning practice to track my mental state and detect early warning signs of problems.
+```
+
+---
+
+### 7. Personal Safety Plan
+
+```text
+Help me design a personal safety plan in case I notice [specific signal] again.  
+Who should I contact and what steps should I take immediately?
 ```
 
 ---
