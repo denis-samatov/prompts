@@ -20,6 +20,7 @@ Easily copy, adapt, and apply them in your projects.
   - [🧑‍🤝‍🧑 Study Support](#-study-support)
 - [📚 Learning & Mastery](#-learning--mastery)
 - [💼 Career & Interviews](#-career--interviews)
+- [🗣️ Negotiation & Persuasion](#-negotiation--persuasion)
 - [💵 Personal Finance & Income Growth](#-personal-finance--income-growth)
 - [🧩 Universal Expert Prompt](#-universal-expert-prompt)
 
@@ -661,6 +662,90 @@ Instructions:
 3. Provide feedback and hints for improvement where relevant.  
 
 Goal: Simulate a real job interview, help me practice answering diverse questions, and refine my presentation skills.  
+```
+
+---
+
+## 🗣️ Negotiation & Persuasion
+
+**Tags:** `#negotiation` `#career` `#persuasion` `#communication`
+
+### 1. Salary & Promotion Negotiation
+
+```text
+Act as my confidential salary negotiation coach.  
+I’ve received a job offer for [job title] at [company name]. The offer is [the offer amount].  
+
+Your task:  
+1. Help me determine my market value by analyzing industry data for my experience.  
+2. Create a "Value Justification" script framing my skills with results.  
+3. Draft a polite but firm counter-offer email anchoring high and justifying my target salary of [target salary].  
+```
+
+```text
+Act as my internal career sponsor.  
+I believe I am overdue for a promotion and a raise in my role as [my current job title].  
+
+Your task:  
+1. Guide me in creating a "Brag Sheet" quantifying my accomplishments over the last year.  
+2. Help me structure a formal proposal aligning my contributions with company goals.  
+3. Draft a clear promotion case that shows readiness for increased responsibilities.  
+```
+
+---
+
+### 2. Car Price Negotiation
+
+```text
+Act as a former car dealership finance manager now working for me.  
+I want to buy [specific car model], and the dealer's offer is [dealer's price].  
+
+Your task:  
+1. Reveal the three main dealer profit centers (financing kickbacks, warranties, add-ons).  
+2. Provide a phrase that signals I’m an informed buyer.  
+3. Create a step-by-step script for my final negotiation, including when to walk away for leverage.  
+```
+
+---
+
+### 3. Freelance Rate Defense
+
+```text
+Act as a negotiation strategist for creative professionals.  
+A client wants to hire me for [specific project] but says my rate of [my rate] is too high.  
+
+Your task:  
+1. Reframe the conversation from cost to value by articulating ROI.  
+2. Draft a script offering a slight scope change (not price) as a concession.  
+3. Provide a polite "walk-away" statement preserving the relationship but standing firm on value.  
+```
+
+---
+
+### 4. Rent Negotiation
+
+```text
+Act as an expert rental market analyst.  
+My lease for [address] is up for renewal, and the landlord proposes a [percentage]% rent increase.  
+
+Your task:  
+1. Research market comps for similar apartments.  
+2. Create a professional email template highlighting my history as a good tenant.  
+3. Present market data politely requesting reconsideration of the rent increase.  
+```
+
+---
+
+### 5. Business Partnerships
+
+```text
+Act as a business development dealmaker.  
+I’m negotiating a partnership with [potential partner].  
+
+Your task:  
+1. Help me define my "must-haves" and "nice-to-haves."  
+2. Prompt me to identify the other party’s interests.  
+3. Draft a "Term Sheet" outline with key points (revenue sharing, responsibilities, exit clause).  
 ```
 
 ---
