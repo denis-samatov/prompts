@@ -30,6 +30,8 @@ Easily copy, adapt, and apply them in your projects.
 ## 💻 Programming
 **Tags:** `#code` `#debug` `#review`
 
+---
+
 ### 1. Code Generation
 ```text
 As an experienced programmer, your task is to write code in [PROGRAMMING LANGUAGE] to perform [ACTION].
@@ -37,6 +39,8 @@ The code must be efficient, well-structured, and optimized for performance.
 Follow industry best practices and ensure readability and maintainability.
 Document the code clearly and provide explanations for key logic.
 ````
+
+---
 
 ### 2. Debugging & Optimization
 
@@ -48,6 +52,8 @@ Analyze the following code snippet that produces [ERROR].
 3. Suggest fixes and improvements for readability, maintainability, and performance.
 Ensure compatibility with the current development environment.
 ```
+
+---
 
 ### 3. Code Review
 
