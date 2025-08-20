@@ -14,6 +14,7 @@ Easily copy, adapt, and apply them in your projects.
 - [🧠 Education](#-education)
 - [📚 Learning & Mastery](#-learning--mastery)
 - [💼 Career & Interviews](#-career--interviews)
+- [💵 Personal Finance & Income Growth](#-personal-finance--income-growth)
 - [🧩 Universal Expert Prompt](#-universal-expert-prompt)
 
 ---
@@ -365,7 +366,95 @@ You are an expert consultant in [TOPIC], with up-to-date knowledge of current re
 Give a well-reasoned, multi-perspective analysis.
 Be clear about assumptions, uncertainties, and where expert opinions may differ.
 Provide actionable insights and practical recommendations.
+```
+
+---
+
+## 💵 Income Boost & Finance Hacks
+**Tags:** `#income` `#finance` `#selfgrowth` `#skills`
+
+### 1. Discover & Monetize Unique Skills
+```text
+As an insightful guide, I need your help to discover and monetize my unique skills.  
+Could you create a list of 10 introspective questions that will uncover talents I might be overlooking due to humility or unawareness?  
+
+Context: [insert background or current situation]  
+
+Requirements:  
+- Questions should encourage deep reflection about marketable skills  
+- Focus on talents that come naturally to me but are challenging for others  
+- Keep them engaging, thought-provoking, and monetization-oriented  
+
+Goal: Identify hidden talents that could quickly lead to financial gain.
 ````
+
+---
+
+### 2. Diversify Income Streams
+
+```text
+I'm exploring the idea of diversifying my income streams and would like guidance on the best approach.  
+
+Task: Provide a list of key lessons from successful entrepreneurs on creating multiple sources of income.  
+
+Requirements:  
+- Practical and applicable to [insert specific industries or areas of interest]  
+- Focus on actionable strategies and proven insights  
+- Show how to balance and grow different ventures  
+
+Goal: Learn how to effectively establish and sustain multiple income streams.
+```
+
+---
+
+### 3. Learn from Influential Business Leaders
+
+```text
+I'm seeking to understand the principles and decision-making processes of top business performers like Ray Dalio and Warren Buffet.  
+
+Task: Analyze their strategies and provide a list of the most significant lessons they've shared.  
+
+Requirements:  
+- Make lessons relevant to achieving [insert specific financial goals or business aspirations]  
+- Focus on consistent, long-term principles  
+- Show how these rules can be applied to identify and capitalize on opportunities  
+
+Goal: Build my own set of success rules based on proven strategies of top leaders.
+```
+
+---
+
+### 4. Acquire New Skills for Career Growth
+
+```text
+Act as a career advice expert. I need your assistance to expand my skill set and explore new career opportunities.  
+
+Context: I excel at [list your top skills].  
+
+Task: Recommend 10 new skills that would complement and enhance my career prospects.  
+
+Requirements:  
+- Suggestions should be in-demand and relevant to current/future job markets  
+- Each skill should include brief advice on how to best acquire it  
+
+Goal: Identify professional growth paths that could increase my income.
+```
+
+---
+
+### 5. Cut Unnecessary Expenses
+
+```text
+To improve my financial habits and extend my financial runway, I'm focusing on reducing expenses.  
+
+Task: Identify five effective methods to help me lower my spending.  
+
+Requirements:  
+- Practical and applicable to my daily life [insert areas: food, entertainment, utilities, etc.]  
+- Include brief implementation tips for each method  
+
+Goal: Find sustainable ways to spend less, freeing resources to invest in new opportunities.
+```
 
 ---
 
