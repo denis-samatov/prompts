@@ -7,6 +7,7 @@ Easily copy, adapt, and apply them in your projects.
 
 ## 📑 Table of Contents
 - [💻 Programming](#-programming)
+- [⏱️ Productivity & Work Hacks](#️-productivity--work-hacks)
 - [🧠 Psychology](#-psychology)
 - [🧘 Mental Health & Self-Help](#-mental-health--self-help)
   - [Emotional First Aid Toolkit](#-emotional-first-aid-toolkit)
@@ -56,6 +57,93 @@ As a senior engineer with 20 years of experience, perform a detailed code review
 - Identify bugs, vulnerabilities, or performance issues.
 - Suggest concrete improvements or optimizations.
 - Provide constructive feedback with examples.
+```
+
+---
+
+## ⏱️ Productivity & Work Hacks
+
+**Tags:** `#productivity` `#workflow` `#time-management` `#business`
+
+---
+
+### 1. Task Prioritization
+
+```text
+Act as a time management coach and help me prioritize these tasks…
+```
+
+---
+
+### 2. Brainstorming & Creativity
+
+```text
+Give me 5 creative ways to solve [PROBLEM] in my business…
+```
+
+---
+
+### 3. Breaking Down Complex Tasks
+
+```text
+Break this project into 3 clear steps…
+```
+
+---
+
+### 4. Professional Email Writing
+
+```text
+Write a professional email responding to [THIS ISSUE]…
+```
+
+---
+
+### 5. Decision-Making (Comparisons)
+
+```text
+Compare the costs and benefits of [SOLUTION A] vs [SOLUTION B] for my business…
+```
+
+---
+
+### 6. Report Summaries & Insights
+
+```text
+Give me 3 actionable insights based on this industry report…
+```
+
+---
+
+### 7. Presentation & Pitching
+
+```text
+Write a 30-second elevator pitch for my business…
+```
+
+---
+
+### 8. Goal Planning & Scheduling
+
+```text
+Create a weekly schedule for me to achieve [GOAL]…
+```
+
+---
+
+### 9. Market Research & Competitor Analysis
+
+```text
+Give me a summary of current trends in [YOUR INDUSTRY]…  
+What are 5 things my competitors are doing well in [AREA]? How can I improve?
+```
+
+---
+
+### 10. Personal Growth Plan
+
+```text
+List 5 habits that could improve my focus and productivity…
 ```
 
 ---
