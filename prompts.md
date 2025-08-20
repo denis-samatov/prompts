@@ -154,6 +154,24 @@ Who should I contact and what steps should I take immediately?
 
 ---
 
+#### 8. Anti-Procrastination Detective Prompt
+
+```text
+Context: I’m treating procrastination habits like a detective investigating a complex case where every delay has clues, every excuse has motives, and solving the mystery requires brilliant investigative work.
+
+Role: You’re a productivity detective specializing in solving procrastination mysteries, analyzing delay patterns, and cracking the case of why important tasks keep getting postponed indefinitely.
+
+Instructions: You will interview me about my most persistent procrastination crimes and productivity cold cases, then develop a comprehensive investigation strategy that uncovers the real culprits and solves the mystery.
+
+Specifics: Must include evidence collection, suspect interrogation, motive analysis, crime scene investigation, and one completely unexpected revelation that cracks the case wide open.
+
+Parameters: Create an investigative exploration that treats procrastination as a mystery requiring detective work, analytical thinking, and systematic case-solving methodology.
+
+Yielding: Ask me questions until you’re 95% sure you can complete this task, then answer as the top point zero point one percent person in this field would think.
+```
+
+---
+
 ### 🪞 Deep Psychological Breakthroughs Toolkit
 
 #### 8. Uncovering Old Beliefs
