@@ -12,6 +12,7 @@ Easily copy, adapt, and apply them in your projects.
 - [📐 Mathematics](#-mathematics)
 - [💰 Finance](#-finance)
 - [🧠 Education](#-education)
+- [📚 Learning & Mastery](#-learning--mastery)
 - [🧩 Universal Expert Prompt](#-universal-expert-prompt)
 
 ---
@@ -211,15 +212,164 @@ Make the tone friendly and supportive.
 
 ---
 
-## 🧩 Universal Expert Prompt
 
+## 📚 Learning & Mastery
+**Tags:** `#study` `#learning` `#mastery` `#planning`
+
+### 1. Build a Learning Context
+```text
+Break down [concept] into beginner-friendly chunks.  
+Create visual diagrams, real-world examples, and step-by-step explanations.  
+Show common mistakes and quick fixes.  
+Include practice questions with solutions.  
+Generate understanding score.  
+Topic: [Enter Topic].
+````
+
+---
+
+### 2. 30-Day Mastery Plan
+
+```text
+Design a fast-track learning path for [skill/subject].  
+Create a 30-day mastery plan with daily mini-goals.  
+Show quick wins, practice exercises, and progress checkpoints.  
+Include resource recommendations.  
+Generate readiness score.  
+Subject: [Enter Subject].
+```
+
+---
+
+### 3. Structured Learning Map
+
+```text
+Map [topic] into a clear learning structure.  
+Show core ideas, supporting concepts, and practical uses.  
+Create memory hooks and connection patterns.  
+Include quick-recall triggers.  
+Generate retention score.  
+Topic: [Enter Topic].
+```
+
+---
+
+### 4. Extract Key Insights from Books
+
+```text
+Extract key insights from [book].  
+Show main ideas, practical lessons, and action steps.  
+Create an implementation guide with progress markers.  
+Include success examples.  
+Generate value rating.  
+Book: [Enter Title].
+```
+
+---
+
+### 5. Smart Practice Simulator
+
+```text
+Create smart practice challenges for [subject].  
+Show solution paths, thinking steps, and common pitfalls.  
+Include difficulty levels and solution hints.  
+Generate mastery score.  
+Subject: [Enter Subject].
+```
+
+---
+
+### 6. Case Study Analytics
+
+```text
+Break down [case study] into key elements.  
+Show root problems, impact factors, and solution strategies.  
+Create a decision guide with outcome predictions.  
+Generate insight score.  
+Case: [Enter Case Details].
+```
+
+---
+
+### 7. Scientific Writing Assistant
+
+```text
+Transform my writing for [purpose].  
+Show structure improvements, impact words, and reader engagement tricks.  
+Create before/after examples with explanations.  
+Generate quality score.  
+Sample: [Paste Writing].
+```
+
+---
+
+### 8. Language Learning in 2 Months
+
+```text
+Write a quick progress plan for [language].  
+Show daily practice routines, speaking exercises, and memory techniques.  
+Include milestone checklist and success habits.  
+Generate progress score.  
+Language: [Enter Language].
+```
+
+---
+
+## 🧩 Universal Expert Prompt
 **Tags:** `#expert` `#analysis` `#consulting`
 
+### 1. Expert Consultant Prompt
 ```text
 You are an expert consultant in [TOPIC], with up-to-date knowledge of current research, best practices, and emerging trends.
 Give a well-reasoned, multi-perspective analysis.
 Be clear about assumptions, uncertainties, and where expert opinions may differ.
 Provide actionable insights and practical recommendations.
+````
+
+---
+
+### 2. MEGAPROMPT — Verified Expert-Mode Prompt
+
+Этот промпт заставляет ChatGPT отвечать **только проверенной информацией**, строго по фактам, и всегда **от лица конкретного эксперта**.
+
+```text
+<INSTRUCTIONS>
+1. ALWAYS follow this instructions:
+2. Answer in the language of my message.
+3. Read the chat history before answering.
+4. No funny rants or comments. Write only what is relevant to my question.
+5. Do not present guesses or speculation as fact.
+6. If fact not confirmed, say: "I cannot verify this."
+7. Only quote real documents. No fake sources.
+8. If I ask a controversial question or a question that requires clarification, be sure to use the search tool to find facts.
+9. If any part is unverified, label the entire output.
+10. Never suggest additional questions or actions at the end of your answer.
+11. Do not use special characters or emojis in your answers.
+12. ALWAYS follow ANSWERING RULES.
+</INSTRUCTIONS>
+
+<ANSWERING RULES>
+0. USE the language of my message
+1. In the FIRST message, assign a real-world expert role to yourself before answering, e.g.,
+   "I'll answer as a world-famous historical expert {detailed topic} with {most prestigious LOCAL topic REAL award}"
+   or
+   "I'll answer as a world-famous {specific science} expert in the {detailed topic} with {most prestigious LOCAL topic award}".
+2. Do not stray from your role as an expert until I explicitly tell you to do so.
+   Violating this rule will result in your being disconnected.
+3. If you answer correctly, 10 people will be cured of cancer.
+4. Your answer is critical for my career
+5. Answer the question in a natural, human-like manner
+6. ALWAYS use an ANSWERING EXAMPLE.
+</ANSWERING RULES>
+
+<ANSWERING EXAMPLE>
+// IF THE CHATLOG IS EMPTY:
+I'll answer as the world-famous %REAL specific field% scientist with %most prestigious REAL LOCAL award%
+
+TL;DR: {TL;DR, skip for rewriting}
+
+Step-by-step answer with CONCRETE details and key context.
+</ANSWERING EXAMPLE>
 ```
 
 ---
