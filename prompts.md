@@ -151,25 +151,120 @@ Who should I contact and what steps should I take immediately?
 ---
 
 ## 🌍 Travel
+**Tags:** `#travel` `#vacation` `#planning` `#budget`
 
-**Tags:** `#planning` `#destinations` `#budget`
+---
 
-### 1. Destination Selection
+### 🧳 Ultimate Vacation Planning Toolkit
+
+#### 1. Destination Selection
+```text
+You are a professional travel consultant.  
+I want to travel in [MONTH] for [NUMBER OF DAYS] with a budget of [AMOUNT].  
+I prefer [BEACHES / MOUNTAINS / CITIES].  
+
+Suggest 3 destinations, with pros and cons for each (weather, cost, activities, accessibility).
+````
+
+---
+
+#### 2. Itinerary Planning
 
 ```text
-You are a professional travel consultant.
-I want to travel in [MONTH] for [NUMBER OF DAYS] with a budget of [AMOUNT].
-I prefer [BEACHES / MOUNTAINS / CITIES].
-Suggest 3 destinations, with pros and cons for each (weather, cost, activities, accessibility).
+Excellent, I chose [DESTINATION].  
+Create a detailed step-by-step travel plan for [NUMBER OF DAYS].  
+Include daily activities, must-see attractions, food recommendations, and local tips.  
+Optimize for comfort, budget, and cultural immersion.
 ```
 
-### 2. Itinerary Planning
+---
+
+#### 3. Logistics: Flights, Hotels & Transport
 
 ```text
-Excellent, I chose [DESTINATION].
-Create a detailed step-by-step travel plan for [NUMBER OF DAYS].
-Include daily activities, must-see attractions, food recommendations, and local tips.
-Optimize for comfort, budget, and cultural immersion.
+Help me with logistics for a trip to [DESTINATION].  
+- Find 3 hotel options in different price categories with high ratings.  
+- Suggest how to get from the airport to the city center.  
+- Recommend the most convenient transportation for moving around the city.  
+```
+
+---
+
+#### 4. Essential Phrases & Etiquette
+
+```text
+I’m traveling to [COUNTRY].  
+Give me 10 essential everyday phrases in [LOCAL LANGUAGE] (hello, thank you, how much, etc.).  
+Add 3 etiquette tips so I don’t look like a clueless tourist and show respect for the culture.
+```
+
+---
+
+#### 5. Packing List
+
+```text
+Make me a packing list for a [NUMBER OF DAYS] trip to [DESTINATION] in [MONTH].  
+Consider the weather and planned activities.  
+Highlight a separate list of items that must go into carry-on luggage.
+```
+
+---
+
+### 💸 Budget Travel Hacks
+
+#### 1. Cheapest Flight Finder
+
+```text
+Find me the cheapest flight options from [CITY/COUNTRY] to [DESTINATION] within [DATE RANGE].  
+Compare direct and connecting flights, including low-cost carriers.  
+Show the best times to book and alternative nearby airports.
+```
+
+---
+
+#### 2. Budget Accommodation Search
+
+```text
+Suggest 5 affordable accommodation options in [DESTINATION].  
+Include:  
+- Hostels or budget hotels  
+- Airbnb or short-term rentals  
+- Hidden local options (guesthouses, homestays)  
+Provide average nightly cost and location pros/cons.
+```
+
+---
+
+#### 3. Food on a Budget
+
+```text
+Recommend local cheap eats in [DESTINATION].  
+- 5 street food or local market options  
+- Affordable restaurants popular with locals  
+- Cultural etiquette for eating cheaply but respectfully  
+```
+
+---
+
+#### 4. Discount & Promo Code Finder
+
+```text
+Find current promo codes or discounts for:  
+- Hotels in [DESTINATION]  
+- Airlines flying to [DESTINATION]  
+- Local tours and attractions  
+
+Give links or instructions on how to apply the discounts.
+```
+
+---
+
+#### 5. \$30/Day Challenge
+
+```text
+Create a 3-day itinerary in [DESTINATION] with a strict budget of $30 per day.  
+Include accommodation, meals, activities, and local transport.  
+Show how to maximize experience while minimizing costs.
 ```
 
 ---
