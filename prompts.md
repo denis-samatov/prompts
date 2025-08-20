@@ -9,6 +9,8 @@ Easily copy, adapt, and apply them in your projects.
 - [💻 Programming](#-programming)
 - [🧠 Psychology](#-psychology)
 - [🧘 Mental Health & Self-Help](#-mental-health--self-help)
+  - [Emotional First Aid Toolkit](#-emotional-first-aid-toolkit)
+  - [Deep Psychological Breakthroughs Toolkit](#-deep-psychological-breakthroughs-toolkit)
 - [🌍 Travel](#-travel)
 - [📐 Mathematics](#-mathematics)
 - [💰 Finance](#-finance)
@@ -85,11 +87,13 @@ Include both short-term coping tools and long-term development approaches.
 --- 
 
 ## 🧘 Mental Health & Self-Help
-**Tags:** `#mentalhealth` `#selfhelp` `#therapy` `#support`
+**Tags:** `#mentalhealth` `#selfhelp` `#therapy` `#support` `#reflection`
 
 ---
 
-### 1. Panic Attack Grounding
+### 🩺 Emotional First Aid Toolkit
+
+#### 1. Panic Attack Grounding
 ```text
 I’m having a panic attack right now.  
 Guide me through the grounding technique 5-4-3-2-1 step by step.
@@ -97,7 +101,7 @@ Guide me through the grounding technique 5-4-3-2-1 step by step.
 
 ---
 
-### 2. Cognitive Distortion Reframe
+#### 2. Cognitive Distortion Reframe
 
 ```text
 I keep thinking: “[insert thought]”.  
@@ -106,7 +110,7 @@ Help me identify the cognitive distortion in this thought and reframe it into a 
 
 ---
 
-### 3. Deep Self-Reflection
+#### 3. Deep Self-Reflection
 
 ```text
 Give me 5 deep journaling questions to process [emotion or situation].  
@@ -115,7 +119,7 @@ Use questions that therapists typically ask to uncover fears and root problems.
 
 ---
 
-### 4. Emotion Regulation (DBT)
+#### 4. Emotion Regulation (DBT)
 
 ```text
 I feel overwhelmed by [emotion].  
@@ -124,7 +128,7 @@ Teach me a DBT skill I can use right now to regulate and calm myself.
 
 ---
 
-### 5. Relationship Conflict Patterns
+#### 5. Relationship Conflict Patterns
 
 ```text
 I keep fighting with [person] because of [reason].  
@@ -133,7 +137,7 @@ What relationship pattern might I be stuck in?
 
 ---
 
-### 6. Daily Mental Health Check-In
+#### 6. Daily Mental Health Check-In
 
 ```text
 Create a 5-minute morning practice to track my mental state and detect early warning signs of problems.
@@ -141,11 +145,67 @@ Create a 5-minute morning practice to track my mental state and detect early war
 
 ---
 
-### 7. Personal Safety Plan
+#### 7. Personal Safety Plan
 
 ```text
 Help me design a personal safety plan in case I notice [specific signal] again.  
 Who should I contact and what steps should I take immediately?
+```
+
+---
+
+### 🪞 Deep Psychological Breakthroughs Toolkit
+
+#### 8. Uncovering Old Beliefs
+
+```text
+Help me explore a belief I held strongly five years ago that I've completely changed my mind about.  
+Ask me probing questions to help me walk through that transformation step by step.  
+What evidence finally broke through? What was I protecting by holding onto it for so long?  
+Don't let me give surface-level answers.
+```
+
+---
+
+#### 9. Real Life Values Reflection
+
+```text
+I want you to help me imagine I'm 80 years old, looking back on my life.  
+Based on what I tell you about how I'm living right now, help me identify what my biggest regret will likely be.  
+Don't let me give obvious answers like "I should travel more".  
+Please dig deeper into patterns of behavior or inaction that I'm avoiding confronting.
+```
+
+---
+
+#### 10. Honest Letter Exercise
+
+```text
+I want to write a letter to someone important in my life saying the most honest thing I've never told them.  
+Help me explore what's really behind my reluctance to share this truth.  
+What am I afraid would happen if I did?  
+Push me to be brutally honest about my fears.
+```
+
+---
+
+#### 11. Identity Shake-Up
+
+```text
+Help me identify a story I tell about myself that might not be completely true.  
+Ask me questions about how this narrative has shaped my identity and decisions.  
+What would change if I let go of this story?  
+Keep pushing until we get to something real.
+```
+
+---
+
+#### 12. Breaking Stereotypes & Biases
+
+```text
+Walk me through a time when I realized I was completely wrong about someone.  
+Help me analyze what assumptions I made and what this reveals about my unconscious biases.  
+Don't let me off the hook, keep asking what deeper patterns this shows about how I judge others.
 ```
 
 ---
