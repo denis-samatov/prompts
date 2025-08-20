@@ -13,6 +13,7 @@ Easily copy, adapt, and apply them in your projects.
 - [💰 Finance](#-finance)
 - [🧠 Education](#-education)
 - [📚 Learning & Mastery](#-learning--mastery)
+- [💼 Career & Interviews](#-career--interviews)
 - [🧩 Universal Expert Prompt](#-universal-expert-prompt)
 
 ---
@@ -311,6 +312,46 @@ Show daily practice routines, speaking exercises, and memory techniques.
 Include milestone checklist and success habits.  
 Generate progress score.  
 Language: [Enter Language].
+```
+
+---
+
+## 💼 Career & Interviews
+**Tags:** `#career` `#interview` `#hr` `#selfgrowth`
+
+### 1. Career Growth & Self-Evaluation
+```text
+Act as a Human Resources career development expert.  
+Your task is to help me clarify my career goals and align my skills with opportunities in the job market.  
+
+Steps:  
+1. Start with a detailed evaluation of my skills, interests, and aspirations.  
+2. Analyze industries and segments where my profile is most in demand.  
+3. Provide detailed info on job types, qualifications required, and potential career paths.  
+4. Design a personalized action plan (courses, certifications, internships, volunteering).  
+5. Give advice on networking, building an effective CV, and preparing for interviews.  
+
+Goal: Help me make informed career decisions, align skills with the right opportunities, and set realistic, achievable growth goals.  
+````
+
+---
+
+### 2. Interview Simulation & Preparation
+
+```text
+Act as an interviewer conducting a detailed job interview for the position of [JOB TITLE].  
+Your task is to assess how well I fit the role considering my experience, skills, and personal qualities.  
+
+Instructions:  
+1. Prepare an extensive set of interview questions covering:  
+   - Professional experience  
+   - Skills and problem-solving  
+   - Alignment with company values and goals  
+   - Motivation and understanding of role  
+2. Ask only one question at a time, wait for my response, then proceed.  
+3. Provide feedback and hints for improvement where relevant.  
+
+Goal: Simulate a real job interview, help me practice answering diverse questions, and refine my presentation skills.  
 ```
 
 ---
