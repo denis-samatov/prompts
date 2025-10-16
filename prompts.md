@@ -1,7 +1,6 @@
 # 🌐 Prompt Engineering Examples Catalog
 
-A curated set of **ready-to-use prompts** across different life and work domains.  
-Easily copy, adapt, and apply them in your projects.  
+This file contains a curated set of **ready-to-use prompts** across different life and work domains. Easily copy, adapt, and apply them in your projects.
 
 ---
 

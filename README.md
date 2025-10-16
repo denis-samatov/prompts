@@ -1,168 +1,59 @@
-# Prompt Engineering Techniques: A Technical Guide
+# Prompt Engineering and Prompt-Driven Development
 
-## Table of Contents
+This repository is a curated collection of resources for mastering prompt engineering and leveraging prompt-driven development techniques. It provides a comprehensive guide to advanced prompting strategies and a catalog of ready-to-use prompts for various applications.
+
+## 📖 Table of Contents
+
 - [Introduction](#introduction)
-- [Zero-Shot Prompting](#zero-shot-prompting)
-- [Few-Shot Prompting](#few-shot-prompting)
-- [Chain-of-Thought Prompting](#chain-of-thought-prompting)
-- [Role Prompting](#role-prompting)
-- [Self-Consistency Prompting](#self-consistency-prompting)
-- [Reflexion / Critique Prompting](#reflexion--critique-prompting)
-- [Conclusion](#conclusion)
-- [References](#references)
+- [Repository Structure](#repository-structure)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
 
 ---
 
 ## Introduction
-Prompt engineering is the craft of designing prompts to elicit desired behavior from large language models (LLMs). Advanced users leverage various techniques to improve model performance on different tasks, especially as raw instructions may not always yield the best results. This guide covers several key prompt engineering techniques – **Zero-Shot**, **Few-Shot**, **Chain-of-Thought**, **Role Prompting**, **Self-Consistency**, and **Reflexion/Critique** prompting – explaining how they work and when to use them. Each technique is illustrated with explanations and examples to help experienced users refine their prompts for optimal results.
+
+Prompt engineering is the art and science of designing effective inputs for large language models (LLMs) to elicit desired responses. This repository serves as a practical guide for developers, researchers, and enthusiasts looking to enhance their skills in this domain.
+
+Whether you're a beginner seeking to understand the fundamentals or an experienced user looking for advanced techniques, these resources will help you optimize your interactions with LLMs for a wide range of tasks.
 
 ---
 
-## Zero-Shot Prompting
-Zero-shot prompting is the simplest approach: you give the model a direct instruction to perform a task **without providing any examples**.  
+## 📂 Repository Structure
 
-**Example:**
-```text
-Prompt: "Classify the sentiment of the following text as positive, negative, or neutral.
-Text: I think the vacation was okay.
-Sentiment:"
-````
+This repository is organized into two main files:
 
-**Output:**
+1.  **[📄 `prompt-engineering-techniques.md`](./prompt-engineering-techniques.md)**: A detailed guide covering key prompt engineering techniques, including:
+    -   Zero-Shot and Few-Shot Prompting
+    -   Chain-of-Thought Prompting
+    -   Role Prompting
+    -   Self-Consistency
+    -   Reflexion/Critique Prompting
 
-```text
-Neutral
-```
+    This guide explains how each technique works, its primary use cases, and its limitations, providing a solid foundation for crafting sophisticated prompts.
 
-✅ Use cases: common NLP tasks, straightforward classification, text summarization
-⚠️ Limitations: often fails on complex or ambiguous tasks without guidance
+2.  **[🗂️ `prompts.md`](./prompts.md)**: A comprehensive catalog of ready-to-use prompts for various domains, such as:
+    -   Programming (code generation, debugging)
+    -   Productivity and Work Hacks
+    -   Psychology and Mental Health
+    -   Travel and Finance
+    -   Education and Learning
 
----
-
-## Few-Shot Prompting
-
-Few-shot prompting improves performance by providing **input-output examples** in the prompt before the actual query.
-
-**Example:**
-
-```text
-A "whatpu" is a small, furry animal native to Tanzania.
-An example of a sentence that uses the word "whatpu" is:
-We were traveling in Africa and we saw these very cute whatpus.
-
-To do a "farduddle" means to jump up and down really fast.
-An example of a sentence that uses the word "farduddle" is:
-```
-
-**Output:**
-
-```text
-When we won the game, we all started to farduddle in celebration.
-```
-
-✅ Use cases: structured outputs, uncommon tasks, custom formatting
-⚠️ Limitations: prompt length grows with more examples; example choice is critical
+    This collection is designed to be a practical toolkit that you can adapt and integrate into your own projects.
 
 ---
 
-## Chain-of-Thought Prompting
+## 🚀 How to Use
 
-Chain-of-Thought (CoT) prompting encourages the model to **generate intermediate reasoning steps**.
-
-**Example (Zero-shot CoT):**
-
-```text
-I have 3 apples and buy 5 more, then give away 2. How many apples do I have left?
-Let’s think step by step.
-```
-
-**Output:**
-
-```text
-First, you start with 3 apples. You buy 5 more, so 3 + 5 = 8.
-Then you give away 2, so 8 - 2 = 6.
-Answer: 6
-```
-
-✅ Use cases: arithmetic, logical reasoning, multi-hop QA
-⚠️ Limitations: smaller models may hallucinate steps; works best on large LLMs
+1.  **Learn the Fundamentals**: If you are new to prompt engineering, start by reading the [`prompt-engineering-techniques.md`](./prompt-engineering-techniques.md) guide to understand the core concepts.
+2.  **Explore the Prompt Catalog**: Browse the [`prompts.md`](./prompts.md) file to find prompts relevant to your needs.
+3.  **Copy and Adapt**: Copy any prompt and modify it to fit your specific context. Replace placeholders like `[TOPIC]` or `[PROGRAMMING LANGUAGE]` with your details.
+4.  **Combine and Innovate**: For complex tasks, try combining different techniques. For example, you can use a role prompt with a chain-of-thought approach for more nuanced and accurate responses.
 
 ---
 
-## Role Prompting
+## 🤝 Contributing
 
-Role prompting instructs the model to **adopt a persona or point of view** to guide tone, depth, and style.
+Contributions are welcome! If you have a new prompt, a suggestion for improvement, or a correction, please feel free to open an issue or submit a pull request.
 
-**Example:**
-
-```text
-You are an experienced software engineer. Explain how a blockchain works.
-```
-
-✅ Use cases: domain-specific explanations, stylistic control, roleplay
-⚠️ Limitations: affects style, not knowledge accuracy
-
----
-
-## Self-Consistency Prompting
-
-Self-consistency improves reliability by **sampling multiple reasoning paths** and selecting the majority answer.
-
-**Example (Age puzzle):**
-
-> “When I was 6 my sister was half my age. Now I’m 70, how old is my sister?”
-
-* Run 1 → 67
-* Run 2 → 67
-* Run 3 → 35 (incorrect)
-
-**Final Answer (by majority):** 67 ✅
-
-✅ Use cases: arithmetic, commonsense reasoning, tasks prone to varied reasoning
-⚠️ Limitations: requires multiple runs, more computational cost
-
----
-
-## Reflexion / Critique Prompting
-
-Reflexion and critique prompting have the model **analyze and improve its own response**.
-
-**Example (code debugging):**
-
-```text
-Write Python code to compute factorial.
-```
-
-*Model produces buggy code.*
-
-```text
-Now check the above code for mistakes and correct them.
-```
-
-*Model revises and fixes the code.*
-
-✅ Use cases: code generation, reasoning-heavy tasks, fact-checking
-⚠️ Limitations: critique quality depends on the model; may miss subtle errors
-
----
-
-## Conclusion
-
-* **Zero-Shot** → fast, works for simple tasks
-* **Few-Shot** → shows patterns with examples
-* **Chain-of-Thought** → explicit reasoning for complex queries
-* **Role Prompting** → controls style/persona
-* **Self-Consistency** → improves correctness via multiple outputs
-* **Reflexion/Critique** → iterative self-improvement
-
-These techniques can be **combined** for maximum effect. For example: *few-shot + CoT + reflexion* often yields strong results in reasoning tasks.
-
----
-
-## References
-
-* Wei et al. (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*
-* Kojima et al. (2022). *Large Language Models are Zero-Shot Reasoners*
-* Wang et al. (2022). *Self-Consistency Improves Chain-of-Thought Reasoning in Language Models*
-* Shinn et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*
-
+When contributing, please try to follow the existing structure and formatting. If you are adding a new prompt, include a brief description of its purpose and any relevant tags.
