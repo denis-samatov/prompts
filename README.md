@@ -1,5 +1,7 @@
 # Prompt Engineering and Prompt-Driven Development
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository is a curated collection of resources for mastering prompt engineering and leveraging prompt-driven development techniques. It provides a comprehensive guide to advanced prompting strategies and a catalog of ready-to-use prompts for various applications.
 
 ## 📖 Table of Contents
