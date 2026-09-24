@@ -1,6 +1,6 @@
 # 🌐 Prompt Engineering Examples Catalog
 
-This file contains a curated set of **ready-to-use prompts** across different life and work domains. Easily copy, adapt, and apply them in your projects.
+This file contains example prompts across different life and work domains. Adapt them to your context and check their outputs. None of these templates guarantees accuracy, professional qualifications, or access to current sources. Health and finance examples are for general exploration, not individual medical or investment decisions.
 
 ---
 
@@ -160,22 +160,17 @@ List 5 habits that could improve my focus and productivity…
 ### 1. Anxiety & Emotion Analysis
 
 ```text
-You are an experienced psychologist specializing in cognitive-behavioral therapy (CBT).
-A client reports: "[DESCRIPTION OF SITUATION/FEELINGS]".
-Provide a structured analysis including:
-1. Possible cognitive distortions.
-2. Evidence-based CBT techniques to address the issue.
-3. Step-by-step exercises or reflections the client can try.
+Help me reflect on this situation: "[DESCRIPTION OF SITUATION/FEELINGS]".
+Offer questions I could ask myself and general CBT-style reflection exercises.
+Avoid diagnosing me or presenting a brief description as a clinical assessment.
 ```
 
 ### 2. Attachment Style Analysis
 
 ```text
-You are an attachment theory expert.
-Based on the following behaviors and feelings: "[BEHAVIOR DESCRIPTION]",
-analyze which attachment style is most likely.
-Give practical strategies to move toward a more secure attachment style.
-Include both short-term coping tools and long-term development approaches.
+Help me reflect on these relationship behaviors and feelings: "[BEHAVIOR DESCRIPTION]".
+Explain several possible interpretations and questions that could clarify them.
+Do not assign an attachment style or diagnosis from this description alone.
 ```
 
 --- 
@@ -472,24 +467,23 @@ Then show the formal definition and formula with a worked-out example.
 ### 1. Personal Investment Strategy
 
 ```text
-You are a financial advisor with expertise in personal investing.
-Given the profile: Age [X], Risk tolerance [LOW/MEDIUM/HIGH],
-and Goals [RETIREMENT / WEALTH GROWTH / CAPITAL PRESERVATION],
-propose an investment strategy.
-Include allocation across asset classes, rationale, and potential risks.
+For educational purposes, explain factors someone with Age [X], Risk tolerance
+[LOW/MEDIUM/HIGH], and Goals [RETIREMENT / WEALTH GROWTH / CAPITAL PRESERVATION]
+could consider when comparing broad asset classes. Explain trade-offs and
+missing information. Do not present a personal allocation as suitable for me.
 ```
 
 ### 2. Company Analysis
 
 ```text
-You are an equity analyst.
-Analyze [COMPANY NAME] as an investment opportunity.
-Provide a structured report including:
+Outline how to analyze [COMPANY NAME] as an investment opportunity.
+Use dated, verifiable sources if available; otherwise identify what data must
+be collected before drawing conclusions. Cover:
 1. Business model overview
 2. Financial health (profitability, debt, growth trends)
 3. Market position and competitors
 4. Risks and opportunities
-5. Final recommendation (Buy / Hold / Sell) with reasoning
+5. Key uncertainties and information needed for an individual decision
 ```
 
 ---
@@ -936,54 +930,31 @@ Goal: Find sustainable ways to spend less, freeing resources to invest in new op
 
 ### 1. Expert Consultant Prompt
 ```text
-You are an expert consultant in [TOPIC], with up-to-date knowledge of current research, best practices, and emerging trends.
-Give a well-reasoned, multi-perspective analysis.
-Be clear about assumptions, uncertainties, and where expert opinions may differ.
-Provide actionable insights and practical recommendations.
+Analyze [TOPIC] for [AUDIENCE] using the context I provide.
+Give a multi-perspective explanation and separate facts from assumptions.
+If current sources are available, cite them with dates; otherwise say what
+cannot be verified. Do not invent credentials, sources, or tool use.
 ```
 
-### 2. MEGAPROMPT — Verified Expert-Mode Prompt
+### 2. Evidence-Aware Analysis Prompt
 
-Этот промпт заставляет ChatGPT отвечать **только проверенной информацией**, строго по фактам, и всегда **от лица конкретного эксперта**.
+A prompt can request careful sourcing, but it cannot guarantee factual accuracy
+or give a model access to sources or tools it does not have.
 
 ```text
-<INSTRUCTIONS>
-1. ALWAYS follow this instructions:
-2. Answer in the language of my message.
-3. Read the chat history before answering.
-4. No funny rants or comments. Write only what is relevant to my question.
-5. Do not present guesses or speculation as fact.
-6. If fact not confirmed, say: "I cannot verify this."
-7. Only quote real documents. No fake sources.
-8. If I ask a controversial question or a question that requires clarification, be sure to use the search tool to find facts.
-9. If any part is unverified, label the entire output.
-10. Never suggest additional questions or actions at the end of your answer.
-11. Do not use special characters or emojis in your answers.
-12. ALWAYS follow ANSWERING RULES.
-</INSTRUCTIONS>
+Question: [QUESTION]
+Audience and context: [AUDIENCE AND CONTEXT]
 
-<ANSWERING RULES>
-0. USE the language of my message
-1. In the FIRST message, assign a real-world expert role to yourself before answering, e.g.,
-   "I'll answer as a world-famous historical expert {detailed topic} with {most prestigious LOCAL topic REAL award}"
-   or
-   "I'll answer as a world-famous {specific science} expert in the {detailed topic} with {most prestigious LOCAL topic award}".
-2. Do not stray from your role as an expert until I explicitly tell you to do so.
-   Violating this rule will result in your being disconnected.
-3. If you answer correctly, 10 people will be cured of cancer.
-4. Your answer is critical for my career
-5. Answer the question in a natural, human-like manner
-6. ALWAYS use an ANSWERING EXAMPLE.
-</ANSWERING RULES>
+Answer in the language of my question. Distinguish:
+1. Claims supported by the material you can actually inspect.
+2. Inferences and assumptions.
+3. Information you cannot verify.
 
-<ANSWERING EXAMPLE>
-// IF THE CHATLOG IS EMPTY:
-I'll answer as the world-famous %REAL specific field% scientist with %most prestigious REAL LOCAL award%
-
-TL;DR: {TL;DR, skip for rewriting}
-
-Step-by-step answer with CONCRETE details and key context.
-</ANSWERING EXAMPLE>
+If browsing or retrieval tools are available, prefer primary sources and give
+links and dates for material claims. If tools are unavailable, state that
+current facts were not checked. Never invent a citation, professional
+credential, source access, or tool result. For high-stakes decisions, explain
+the limits of the available evidence and identify what needs independent review.
 ```
 
 ---

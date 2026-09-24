@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository is a curated collection of resources for mastering prompt engineering and leveraging prompt-driven development techniques. It provides a comprehensive guide to advanced prompting strategies and a catalog of ready-to-use prompts for various applications.
+This repository contains an introductory guide to six prompting techniques and a catalog of example prompts for work and personal tasks. The templates are starting points to adapt and test; the repository does not benchmark them or verify model outputs.
 
 ## 📖 Table of Contents
 
@@ -15,9 +15,7 @@ This repository is a curated collection of resources for mastering prompt engine
 
 ## Introduction
 
-Prompt engineering is the art and science of designing effective inputs for large language models (LLMs) to elicit desired responses. This repository serves as a practical guide for developers, researchers, and enthusiasts looking to enhance their skills in this domain.
-
-Whether you're a beginner seeking to understand the fundamentals or an experienced user looking for advanced techniques, these resources will help you optimize your interactions with LLMs for a wide range of tasks.
+Prompting can help specify a task, context, and expected format for a language model. The [technique guide](prompt-engineering-techniques.md) explains common patterns; the [catalog](prompts.md) collects examples. Results depend on the model, task, available tools, and source material. Check factual outputs against primary sources, especially for health and financial topics.
 
 ---
 
@@ -41,7 +39,7 @@ This repository is organized into two main files:
     -   Travel and Finance
     -   Education and Learning
 
-    This collection is designed to be a practical toolkit that you can adapt and integrate into your own projects.
+    These are examples to adapt to your own context and evaluate before relying on their outputs.
 
 ---
 
