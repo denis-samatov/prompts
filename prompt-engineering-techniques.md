@@ -26,7 +26,7 @@ Zero-shot prompting is the simplest approach: you give the model a direct instru
 Prompt: "Classify the sentiment of the following text as positive, negative, or neutral.
 Text: I think the vacation was okay.
 Sentiment:"
-````
+```
 
 **Output:**
 
@@ -41,7 +41,7 @@ Neutral
 
 ## Few-Shot Prompting
 
-Few-shot prompting improves performance by providing **input-output examples** in the prompt before the actual query.
+Few-shot prompting supplies **input-output examples** in the prompt before the actual query.
 
 **Example:**
 
@@ -106,7 +106,7 @@ You are an experienced software engineer. Explain how a blockchain works.
 
 ## Self-Consistency Prompting
 
-Self-consistency improves reliability by **sampling multiple reasoning paths** and selecting the majority answer.
+Self-consistency samples multiple candidate solutions and selects a majority answer. Agreement can repeat a shared error; an independent reference is still required.
 
 **Example (Age puzzle):**
 
@@ -152,10 +152,12 @@ Now check the above code for mistakes and correct them.
 * **Few-Shot** → shows patterns with examples
 * **Chain-of-Thought** → explicit reasoning for complex queries
 * **Role Prompting** → controls style/persona
-* **Self-Consistency** → improves correctness via multiple outputs
+* **Self-Consistency** → aggregates multiple outputs; measure correctness against a reference
 * **Reflexion/Critique** → iterative self-improvement
 
-These techniques can be **combined** for maximum effect. For example: *few-shot + CoT + reflexion* often yields strong results in reasoning tasks.
+These techniques can be combined, but this catalog does not measure an improvement.
+Examples of outputs here are illustrative rather than captured model responses.
+Use the [evaluation protocol](EVALUATION.md) before making a comparative claim.
 
 ---
 
