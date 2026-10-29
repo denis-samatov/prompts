@@ -57,3 +57,8 @@ This repository is organized into two main files:
 Contributions are welcome! If you have a new prompt, a suggestion for improvement, or a correction, please feel free to open an issue or submit a pull request.
 
 When contributing, please try to follow the existing structure and formatting. If you are adding a new prompt, include a brief description of its purpose and any relevant tags.
+
+## Evaluation before reuse
+
+See [EVALUATION.md](EVALUATION.md) for a paired, held-out comparison protocol.
+The catalog remains learning material; no improvement or safety metric is claimed.
