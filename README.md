@@ -19,7 +19,7 @@ Prompting can help specify a task, context, and expected format for a language m
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 This repository is organized into two main files:
 
@@ -43,7 +43,7 @@ This repository is organized into two main files:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1.  **Learn the Fundamentals**: If you are new to prompt engineering, start by reading the [`prompt-engineering-techniques.md`](./prompt-engineering-techniques.md) guide to understand the core concepts.
 2.  **Explore the Prompt Catalog**: Browse the [`prompts.md`](./prompts.md) file to find prompts relevant to your needs.
@@ -52,7 +52,7 @@ This repository is organized into two main files:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have a new prompt, a suggestion for improvement, or a correction, please feel free to open an issue or submit a pull request.
 
@@ -62,3 +62,7 @@ When contributing, please try to follow the existing structure and formatting. I
 
 See [EVALUATION.md](EVALUATION.md) for a paired, held-out comparison protocol.
 The catalog remains learning material; no improvement or safety metric is claimed.
+
+## Public content checks
+
+Run `python .ci/check_content.py` to check local document links and heading anchors, balanced fenced examples, and linked SVG XML. The dependency-free CI runs the same command on pushes and pull requests. It does not contact external URLs or verify private-system, employment, model-effectiveness or deployment claims.
