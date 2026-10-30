@@ -20,7 +20,7 @@ This file contains example prompts across different life and work domains. Adapt
   - [🧑‍🤝‍🧑 Study Support](#-study-support)
 - [📚 Learning & Mastery](#-learning--mastery)
 - [💼 Career & Interviews](#-career--interviews)
-- [🗣️ Negotiation & Persuasion](#-negotiation--persuasion)
+- [🗣️ Negotiation & Persuasion](#️-negotiation--persuasion)
 - [💵 Personal Finance & Income Growth](#-personal-finance--income-growth)
 - [🧩 Universal Expert Prompt](#-universal-expert-prompt)
 
